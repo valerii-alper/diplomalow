@@ -1,0 +1,419 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+	width: 1440px;
+	height: 799px;
+	background: #284854;
+	padding-top: 22px;
+}
+
+.logo {
+	color: #fff;
+	font-size: 30px;
+}
+
+
+.heading {
+	position: relative;
+	width: 1230px;
+	height: 81px;
+	background: #60C1BD;
+	border: 2px solid #60C1BD;
+	border-radius: 100px; 
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px 44px;
+}
+
+.nav-item {
+	display: inline-flex;
+	margin-right: 84px;
+}
+
+.nav-item-link {
+	text-decoration: none;
+	font-size: 18px;
+	color: #284854;
+}
+.button {
+	border: 1px solid #fff;
+	width: 90px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 120px; 
+}
+
+.paragraph-info {
+	width: 542px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.heading-info {
+	width: 712px;
+	font-size: 85px;
+	color: #8BC441;
+}
+
+.veterinarians {
+	width: 506px;
+	height: 203px;
+	background: #F4F6F0;
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-around;
+	padding: 49px 92px 48px 30px;
+	margin-right: 167px;
+}
+
+.hospitals {
+	width: 506px;
+	height: 203px;
+	background: #F4F6F0;
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-around;
+	padding: 49px 92px 48px 30px;
+
+}
+
+.heading-description {
+	font-size: 37px;
+	color: #8BC441;
+}
+
+.paragraph-description {
+	font-size: 20px;
+	width: 182px;
+	color: #60C1BD;	
+}
+
+.description {
+	width: 1179px;
+	display: flex;
+	position: absolute;
+    top: 715px;
+    left: 125px;
+}
+
+.main {
+	width: 1440px;
+}
+
+
+.middle-block {
+	text-align: center;
+	margin-top: 297px;
+}
+
+.middle-paragraph {
+	color: #60C1BD;
+	font-size: 22px;	
+}
+
+.middle-heading {
+	font-size: 55px;
+	color: #284854;	
+}
+
+.blocks {
+	margin-left: 231px;
+	margin-top: 143px;
+	width: 1054px;
+	display: flex;
+}
+
+
+.dog-paragraph {
+	font-size: 20px;
+	color: #798B56;
+	margin-bottom: 10px;
+}
+
+.heading-dog {
+	font-size: 40px;
+	color: #8BC441;
+	margin-bottom: 2px;
+}
+
+.block-pararaph {
+	font-size: 16px;
+	line-height: 29px;
+	color: #284854;
+	width: 525px;
+	line-height: 29px;
+}
+
+.dog-block {
+	margin-left: 130px;
+	margin-top: 56px;
+}
+
+.scientist {
+	display: flex;
+	margin-left: 266px;
+	margin-top: 98px;
+}
+
+.scientist-block {
+	margin-right: 171px;
+}
+
+.scientist-pararaphs {
+	width: 451px;
+	font-size: 15px;
+	color: #284854;
+	margin-bottom: 10px;
+	line-height: 29px;
+}
+
+.heading-scientist {
+	font-size: 40px;
+	color: #8BC441;
+	margin-bottom: 10px;
+}
+
+.scientist-paragraph {
+	font-size: 20px;
+	color: #798B56;
+}
+
+.dog-person {
+	display: flex;
+	width: 1054px;
+	padding: 80px 0px 80px 231px;
+}
+
+.dog-person-block {
+	margin-left: 130px;
+	margin-top: 33px;
+}
+
+.dog-person-paragraph {
+	font-size: 20px;
+	line-height: 27px;
+	color: #798B56;
+}
+
+.heading-dog-person {
+	font-size: 40px;
+	line-height: 47px;
+	color: #8BC441;
+	width: 497px;
+	margin-top: 10px;
+}
+
+.dog-person-pararaphs {
+	font-size: 16px;
+	line-height: 29px;
+	color: #284854;
+	margin-top: 33px;
+	width: 489px;
+}
+
+.vets {
+	display: flex;
+	padding-left: 183px;
+	background: #F4F6F0;
+	width: 1440px;
+	padding-bottom: 135px;
+}
+
+.vets-block {
+	margin-left: 112px;
+	margin-top: 78px;
+}
+
+.img-vets {
+	margin-top: 83px;
+}
+
+.vets-paaragraph {
+	font-size: 22px;
+	line-height: 30px;
+	color: #60C1BD;
+
+}
+
+.vets-heading {
+	font-size: 55px;
+	line-height: 64px;
+	color: #284854;
+	margin-top: 5px;	
+}
+
+.vets-paragraphs {
+	font-size: 18px;
+	line-height: 32px;
+	color: #284854;	
+	margin-top: 31px;
+	margin-bottom: 58px;
+	width: 504px;
+}
+
+.btn-why {
+	border: 1px solid #60C1BD;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 22px;
+	color: #60C1BD;
+	padding: 5px;
+}
+
+
+.rabbit {
+	width: 1440px;
+	display: flex;
+	background: #8BC441;
+	padding: 88px 0px 93px 185px;
+}
+
+.rabbit-block {
+	margin-left: 168px;
+}
+
+.rabbit-heading {
+	font-size: 55px;
+	line-height: 64px;
+	color: #FFFFFF;
+	width: 523px;
+}
+
+
+.rabbit-paragraph {
+	font-size: 20px;
+	line-height: 27px;
+	color: #FFFFFF;
+	width: 242px;
+	margin-right: 134px;
+}
+
+.rabbit-paragraphs {
+	display: flex;
+	margin-top: 57px;
+}
+
+.footer {
+	display: flex;
+	padding: 120px 0px 0px 152px
+}
+
+ul {
+	list-style: none;
+}
+
+.copyrights {
+	padding: 37px 0px 44px 152px;
+	font-size: 13px;
+	line-height: 18px;
+	color: #284854;
+}
+
+
+.hospitals-block {
+	margin-left: 151px;
+	margin-right: 104px;
+}
+
+.findus-block {
+	margin-left: 97px;
+}
+
+.veterinarians-items {
+	margin-top: 25px;
+}
+
+.veterinarians-item {
+	margin-top: 19px;
+}
+
+.hospitals-items {
+	margin-top: 25px;
+}
+
+.hospitals-item {
+	margin-top: 19px;
+}
+
+.findus-items {
+	margin-top: 25px;
+}
+
+.findus-item {
+	margin-top: 4px;
+}
+
+.findus-ite {
+	margin-bottom: 29px;
+}
+
+.veterinarians-heading, .findus-heading, .hospitals-heading {
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 18px;
+	color: #284854;
+	letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 19px;
+	color: #60C1BD;
+}
+
+.navigation {
+	display: inline-flex;
+	padding: 0px 0px 37px 152px;
+}
+
+.navigation-item {
+	margin-right: 39px;
+}
+
+@media screen and (min-width: 370px) {
+	.header {
+		min-width: 370px;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
